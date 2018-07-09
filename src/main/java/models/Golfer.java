@@ -37,7 +37,7 @@ public class Golfer {
         this.age = age;
     }
 
-    public int canGetHandyCap(){
+    public int getHandyCap(){
         return this.handyCap;
     }
 
