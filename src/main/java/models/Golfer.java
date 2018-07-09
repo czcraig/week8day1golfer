@@ -37,11 +37,4 @@ public class Golfer {
         this.age = age;
     }
 
-    public int getHandyCap(){
-        return this.handyCap;
-    }
-
-    public void setHandyCap(int handyCap) {
-        this.handyCap = handyCap;
-    }
 }

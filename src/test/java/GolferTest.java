@@ -27,9 +27,4 @@ public class GolferTest {
     public void hasAge(){
         assertEquals(39, golfer.getAge());
     }
-
-    @Test
-    public void hasHandyCap(){
-        assertEquals(1, golfer.getHandyCap());
-    }
 }
