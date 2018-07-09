@@ -10,7 +10,7 @@ public class GolferTest {
 
     @Before
     public void before(){
-        golfer = new Golfer("Tiger", "Woods", 39, 1);
+        golfer = new Golfer("Tiger", "Woods", 39);
     }
 
     @Test

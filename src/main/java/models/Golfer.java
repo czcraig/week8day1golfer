@@ -11,8 +11,10 @@ public class Golfer {
     private String secondName;
     private int age;
 
+    public Golfer() {
+    }
 
-    public Golfer(String firstName, String secondName, int age, int ){
+    public Golfer(String firstName, String secondName, int age){
         this.firstName = firstName;
         this.secondName = secondName;
         this.age = age;
@@ -53,7 +55,7 @@ public class Golfer {
         return this.age;
     }
 
-    public void canSetAge(int age){
+    public void setAge(int age){
         this.age = age;
     }
 
