@@ -3,6 +3,8 @@ package models;
 import db.DBGolfer;
 import models.Golfer;
 
+import java.util.List;
+
 public class Runner {
 
     public static void main(String[] args) {
@@ -17,6 +19,11 @@ public class Runner {
 
         Golfer golfer4 = new Golfer("Lee", "Westwood", 30);
         DBGolfer.save(golfer4);
+
+        List<Golfer> golfers = DBGolfer.getAll();
+
+
+
     }
 
 }
